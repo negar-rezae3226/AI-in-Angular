@@ -38,4 +38,33 @@
 <li dir="rtl">چطور کد تولید کنه (Service, Component, Signal, etc)</li>
 
 
+-----------------------------------------------------------------------------
 
+<h2>راهنمای جامع LLM در Angular (از صفر تا صد)</h2>
+
+<div dir="rtl">LLM اصلاً چیه؟</div>
+
+<div dir="rtl">LLM (Large Language Model)
+مدل‌های زبانی بزرگی هستن که می‌تونن:
+</div>
+
+<li dir="rtl">کد بنویسن</li>
+<li dir="rtl">کد رو بفهمن</li>
+<li dir="rtl">ریفکتور کنن</li>
+<li dir="rtl">تست بنویسن</li>
+<li dir="rtl">توضیح بدن</li>
+<li dir="rtl">Context پروژه رو تحلیل کنن</li>
+
+<h2 dir="rtl"> LLM توی Angular دقیقاً کجا به کارت میاد؟</h2>
+
+| بخش          | کاربرد LLM                          |
+| ------------ | ----------------------------------- |
+| Component    | ساخت، ریفکتور، توضیح logic          |
+| Service      | نوشتن API layer، caching، state     |
+| Pipe         | نام‌گذاری بهتر، ساده‌سازی transform |
+| Unit Test    | ساخت Test کامل و Edge Case          |
+| Refactor     | شکستن کامپوننت‌های بزرگ             |
+| Architecture | پیشنهاد ساختار پوشه                 |
+| Bug Fix      | تحلیل باگ‌های عجیب                  |
+| Performance  | تشخیص Bottleneck                    |
+| DX           | بهتر شدن تجربه توسعه                |
