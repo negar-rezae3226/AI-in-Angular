@@ -458,17 +458,232 @@ export class AiService {
 
 ---
 
-## مثال کانتکست JSON
+--------------------------------------------------------------------
 
-```json
-{
-  "project": "Angular Frontend",
-  "architecture": "Standalone",
-  "state": "RxJS + Signals",
-  "style": "Strict Typing",
-  "testing": "Jest",
-  "components": ["LoginComponent", "DashboardComponent"],
-  "services": ["AuthService", "UserService"],
-  "pipes": ["NumberSeparatorPipe"]
-}
+# Cursor AI + Angular 🚀
+
+راهنمای جامع استفاده حرفه‌ای از **Cursor AI** در پروژه‌های **Angular**
+
+---
+
+## Cursor AI چیست؟
+
+Cursor یک ویرایشگر کد مبتنی بر هوش مصنوعی است که روی هسته VS Code ساخته شده اما AI را به‌صورت عمیق درکد، ساختار پروژه و Context قرار می‌دهد.
+
+برخلاف ابزارهایی مثل Copilot که بیشتر autocomplete هستند، Cursor نقش یک **هم‌تیمی Senior** را دارد که کل پروژه را می‌فهمد.
+
+---
+
+## چرا Cursor برای Angular عالی است؟
+
+* درک Component / Service / Pipe / Directive
+* فهم Dependency Injection
+* پشتیبانی از RxJS و Angular Signals
+* Refactor هوشمند بدون شکستن پروژه
+* تولید Unit Test استاندارد
+
+---
+
+## Workflow حرفه‌ای استفاده از Cursor در Angular
+
+### 1️⃣ فهم پروژه (Project Understanding)
+
+اولین قدم بعد از باز کردن پروژه:
+
+**Prompt پیشنهادی:**
+
+```
+Analyze this Angular project structure and explain its architecture
+```
+
+نتیجه:
+
+* ساختار کلی پروژه
+* نقش ماژول‌ها یا standalone componentها
+* الگوی معماری (Smart/Dumb, Feature-based, ...)
+
+---
+
+### 2️⃣ فهم Component یا Service قدیمی
+
+قبل از تغییر کد:
+
+```
+Explain this Angular component, its responsibilities and dependencies
+```
+
+یا:
+
+```
+Explain how this service is used across the project
+```
+
+---
+
+### 3️⃣ Refactor امن و مرحله‌ای
+
+#### مثال‌ها:
+
+**تبدیل به OnPush:**
+
+```
+Refactor this component to use OnPush change detection
+```
+
+**کوچک‌سازی کامپوننت بزرگ:**
+
+```
+Split this large Angular component into smaller reusable components
+```
+
+**تبدیل RxJS به Signals:**
+
+```
+Refactor this RxJS logic to Angular signals
+```
+
+---
+
+### 4️⃣ تولید Feature جدید
+
+```
+Create a standalone Angular component for a reusable modal with inputs and outputs
+```
+
+```
+Generate an Angular Pipe to format numbers with Persian separators
+```
+
+Cursor فایل‌ها، decoratorها و typeها را درست ایجاد می‌کند.
+
+---
+
+### 5️⃣ Unit Test نویسی حرفه‌ای
+
+```
+Write unit tests for this Angular component using TestBed
+```
+
+```
+Add unit tests for this service and mock HttpClient
+```
+
+ویژگی‌ها:
+
+* Mock استاندارد
+* تست edge case
+* خوانایی بالا
+
+---
+
+### 6️⃣ دیباگ و بهینه‌سازی
+
+```
+Find potential memory leaks in this Angular component and fix them
+```
+
+```
+Improve performance of this table component
+```
+
+---
+
+## Promptهای آماده مخصوص Angular 🧠
+
+### 🔹 Component
+
+```
+Explain this Angular component and suggest improvements
+```
+
+```
+Refactor this component for better readability and maintainability
+```
+
+---
+
+### 🔹 Service
+
+```
+Extract this logic into a reusable Angular service
+```
+
+```
+Refactor this service to follow best practices
+```
+
+---
+
+### 🔹 Pipe
+
+```
+Create a pure Angular Pipe for formatting numeric values
+```
+
+---
+
+### 🔹 Refactor کلی
+
+```
+Rename variables and methods in this file with better semantic names
+```
+
+---
+
+### 🔹 Architecture
+
+```
+Review this Angular feature and suggest architectural improvements
+```
+
+---
+
+## Cursor vs Copilot (خلاصه)
+
+| ویژگی                 | Cursor | Copilot |
+| --------------------- | ------ | ------- |
+| فهم کل پروژه          | ✅      | ❌       |
+| Refactor واقعی        | ✅      | ❌       |
+| Chat مبتنی بر Context | ✅      | محدود   |
+| Unit Test حرفه‌ای     | ✅      | متوسط   |
+
+---
+
+## Best Practices ⭐
+
+* پرامپت دقیق بنویس
+* تغییرات بزرگ را مرحله‌ای انجام بده
+* همیشه خروجی را Review کن
+* Cursor را جایگزین فکر نکن، تقویت‌کننده بدان
+
+---
+
+## مناسب چه کسانی است؟
+
+* Front-end Developer
+* Angular Developer (Mid / Senior)
+* پروژه‌های بزرگ و Legacy
+* Refactor و توسعه Feature جدید
+
+---
+
+## جمع‌بندی
+
+Cursor AI می‌تواند سرعت توسعه Angular را **چند برابر** کند، به شرطی که:
+
+* درست پرامپت بدهی
+* معماری را خودت بفهمی
+* خروجی را بررسی کنی
+
+> Cursor = AI Pair Programmer واقعی 🔥
+
+---
+
+اگر خواستی:
+
+* Promptهای مخصوص پروژه خودت
+* Workflow تیمی با Cursor
+* مقایسه Cursor با ابزارهای LLM دیگر
+
+می‌تونیم این راهنما رو گسترش بدیم 👌
 
