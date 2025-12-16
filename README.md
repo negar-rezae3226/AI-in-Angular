@@ -425,4 +425,50 @@ export class AiService {
 ---
 
 
+# 📘 MCP در پروژه Angular
+
+## معرفی
+**MCP (Model Context Protocol)** یک استاندارد برای ارتباط بین **هوش مصنوعی (LLM)** و پروژه‌های نرم‌افزاری است.  
+با استفاده از MCP، AI مانند یک **هم‌تیمی حرفه‌ای Angular** عمل می‌کند و:
+
+- ساختار پروژه را می‌فهمد  
+- کدنویسی و Refactor مطابق قوانین پروژه انجام می‌دهد  
+- Unit Test استاندارد ایجاد می‌کند  
+- از ابزارها و APIهای پروژه به درستی استفاده می‌کند
+
+---
+
+## مزایا
+
+- **تحلیل کامل پروژه:** شناخت معماری، Naming و Style  
+- **ساخت کامپوننت هوشمند:** استفاده از FormControl، Validator، RxJS/Signals مطابق پروژه  
+- **ریفکتور حرفه‌ای:** شکستن Component بزرگ، انتقال Logic به Service  
+- **تست استاندارد:** Unit Test با TestBed و Mock Service  
+- **درک Context بیزینسی:** جلوگیری از اشتباهات در محاسبات و Business Logic
+
+---
+
+## ساختار MCP
+
+| بخش | توضیح |
+|-----|-------|
+| **Model** | مدل LLM (GPT, Claude, Gemini, Local) |
+| **Context** | اطلاعات پروژه شامل Components, Services, Pipes, Style, State Management و Testing |
+| **Protocol** | قوانین دسترسی AI به فایل‌ها، API و محدودیت فعالیت‌ها |
+
+---
+
+## مثال کانتکست JSON
+
+```json
+{
+  "project": "Angular Frontend",
+  "architecture": "Standalone",
+  "state": "RxJS + Signals",
+  "style": "Strict Typing",
+  "testing": "Jest",
+  "components": ["LoginComponent", "DashboardComponent"],
+  "services": ["AuthService", "UserService"],
+  "pipes": ["NumberSeparatorPipe"]
+}
 
